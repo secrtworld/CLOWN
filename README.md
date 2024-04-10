@@ -4,6 +4,9 @@ Advanced tool to get shell access
 
 #installation
 
+#Download This tool
+
+#Please Run it cmd
 
 #-----------------------------------------------------------------------------------
 
@@ -11,7 +14,7 @@ Advanced tool to get shell access
 
 frist run:
 
-`git clone https://github.com/secrtworld/CLOWN/edit/main/README.md`
+Run cmd
 
 `cd CLOWN`
 
