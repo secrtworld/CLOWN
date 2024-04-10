@@ -10,13 +10,14 @@ Advanced tool to get shell access
 
 
 frist run:
-git clone https://github.com/secrtworld/CLOWN/edit/main/README.md
 
-cd CLOWN
+`git clone https://github.com/secrtworld/CLOWN/edit/main/README.md`
 
-pip3 install -r Requirements.txt
+`cd CLOWN`
 
-python finall.py
+`pip3 install -r Requirements.txt`
+
+`python finall.py`
 
 
 
