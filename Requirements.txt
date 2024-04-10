@@ -2,4 +2,3 @@ colorama
 pymsgbox
 pyautogui
 shutil
-winreg
