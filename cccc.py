@@ -101,5 +101,5 @@ def cmd(s,command):
         s.send(res.encode('utf-8'))
     except Exception as ex:
         s.send(str(ex).encode('utf-8'))
-#You can edit from here on
+
  
