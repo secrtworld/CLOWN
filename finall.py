@@ -1,3 +1,34 @@
+def install_pkg():
+    import time
+    import os
+    msf = input("Do You Want To Install Pkg's ?")
+    if msf.lower() == "yes" or msf.lower() == "y" or msf.lower() == "yea" or msf.lower() == "yeah":
+        try:
+            print("Pkg's installing.....")
+            time.sleep(2)
+            print("______________________________________Installing Colorama.....___________________________________")
+            os.system("pip install colorama")
+            print("____________________________Installing Colorama Done!________________________________")
+        finally:
+            print("______________________Installing pymsgbox...___________________________")
+            time.sleep(1)
+            os.system("pip install pymsgbox")
+            print("______________________Installing Pymsgbox Done!__________________________")
+        try:
+            print("_____________________Installing pyautogui...__________________")
+            time.sleep(1)
+            os.system("pip install pyautogui")
+            print("________________-Installing Pyautogui Done!__________________")
+            print("____________Installing Pyinstaller..._____________")
+            time.sleep(1)
+            os.system("pip install pyinstaller")
+            print("______________________________Installing Pyinstaller Done!_______________________________")
+            print("________________________________________________All Pkg's Installed!!!________________________________")
+        except:
+            print("EROR")
+    else:
+        print('Ok')
+install_pkg()
 from colorama import Fore, Back, Style
 import socket
 import random
@@ -217,8 +248,17 @@ if __name__ == "__main__":
     main()"""
 #_____________________________________________________________________________________________________________________________________________________________________________
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+def delll():
+    file_name = 'cccc.py'
+    with open(file_name, "r") as file:
+        lines = file.readlines()
+    line_to_edit = lines[:104]
+    with open(file_name, 'w') as file:
+        file.writelines(line_to_edit)
+
 def cc():
-        file_path = input(Fore.RED + "Please send the address where you saved this tool :") + '/cccc.py'
+        file_path = os.getcwd() + '/cccc.py'
         with open(file_path, 'a') as f:
             f.write(cod_to_write)
             f.close()
@@ -226,6 +266,7 @@ def cc():
         
 
 if Input_Hacker == '1':
+    delll()
     cc()
 if Input_Hacker == '2':
     print(Fore.RED + 'Update Not Fund')
