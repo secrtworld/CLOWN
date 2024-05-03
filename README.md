@@ -16,7 +16,7 @@ frist run:
 
 Run cmd
 
-`cd CLOWN`
+`cd CLOWN-main`
 
 `python finall.py`
 
